@@ -48,7 +48,24 @@ gh repo clone Createtion/Projection
 
 > 5. 可以多次使用 git stash 命令‘储藏’工作区，恢复时，先用 git stash list 查看，后可指定要恢复的stash，如 git stash apply 
 
+# git large file storage
 
+```python
+
+Linux
+
+    curl -s https://packagecloud.io/install/repositories/github/git-lfs/script.deb.sh | sudo bash
+
+    sudo apt-get install git-lfs
+
+    git lfs install
+```
+
+```python
+git lfs track filename.{sh & gz & pth}
+git add filename.{sh & gz & pth}
+git push
+```
 # push
 git config --global  --unset https.https://github.com.proxy 
 git config --global  --unset http.https://github.com.proxy 
