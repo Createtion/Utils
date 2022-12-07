@@ -66,6 +66,11 @@ git lfs track filename.{sh & gz & pth}
 git add filename.{sh & gz & pth}
 git push
 ```
+
+# git lfs untracking
+
+[path_to_deal_lfs](https://www.zhihu.com/question/459526905/answer/2618299680)
+
 # push
 git config --global  --unset https.https://github.com.proxy 
 git config --global  --unset http.https://github.com.proxy 
