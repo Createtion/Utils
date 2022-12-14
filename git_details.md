@@ -32,7 +32,7 @@ chose GitHub.com
 HTTPS
 yes
 Paste an authentication token
-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
+[token](token.txt)
 gh repo clone Createtion/Projection
 ```
 
